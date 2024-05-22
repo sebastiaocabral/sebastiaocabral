@@ -1,0 +1,26 @@
+h2{
+    color:Black;
+}
+
+body{
+    background-color: #305050;
+    color: Red;
+    font-family: Arial;
+    text-align: center;
+}
+
+header{
+    border-bottom: 2px solid white;
+}
+
+footer{
+    border-top: 2px solid white;
+}
+
+#nome-usuário{
+    font-weight: bold;
+}
+
+.texto-inglês{
+    font-style: italic;
+}
