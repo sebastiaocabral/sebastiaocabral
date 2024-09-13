@@ -1,26 +1,47 @@
-h2{
-    color:Black;
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
 }
 
-body{
-    background-color: #305050;
-    color: Red;
-    font-family: Arial;
-    text-align: center;
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
 }
 
-header{
-    border-bottom: 2px solid white;
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-footer{
-    border-top: 2px solid white;
+.chamada-texto {
+    margin-right: 5%;
 }
 
-#nome-usuário{
-    font-weight: bold;
+h1 {
+    font-size: 40px;
 }
 
-.texto-inglês{
-    font-style: italic;
+p {
+    font-size: 20px;
 }
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
